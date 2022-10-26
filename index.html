@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pisteando (como un campeon) - Administración</title>
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="stylesheet" href="./css/tablaDinamica.css">
+    
+    </head>
+    <body>
+    
+        <header>
+            <div id="ancho">
+                <div id="nav-logo">
+                    <a href="#" title="Pagina Principal">
+                        <img id="logo" src="./img/logo.png" alt="logo">
+                    </a>
+                </div>
+    
+            </div>
+            <nav>
+                <div id="nav-container">
+                    <ul>
+                        <li ><a href="#nosotros">Nosotros</a></li>
+                        <li ><a href="#anuncios">Anuncios</a></li>
+                        <li ><a href="#blog">Blog</a></li>
+                        <li ><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    
+        <main>
+            <div id="titulo">
+                <h1>Administración</h1>
+                <div id="banner">
+                    <img src="./img/banner.png" alt="banner">
+                </div>
+    
+            </div>
+    
+            <div id="form-container">
+                <fieldset >
+                    <legend>Infomacion Del Anuncio</legend>
+                    <form >
+                        <div id="form-titulo">
+                            <label for="txtTitulo">Titulo</label><br> 
+                            <input type="text" name="txtTitulo" id="txtTitulo" placeholder="Titulo">
+                            <small></small>
+                            <br><br>
+                        </div>
+             
+                        <div id="form-descripcion">
+                            <label for="txtDescripcion">Descripcion</label> <br>
+                            <input type="text" name="txtDescripcion" id="txtDescripcion" placeholder="Descripción">
+                            <small></small>
+                            <br><br>
+                        </div>
+               
+                        <div id="form-Animal">
+                            <label for="">Animal:</label><br>
+                            <label >Perro:</label>
+                            <input type="radio" name="chAnimal" id="chPerro" value="Perro" checked>
+                            <label >Gato:</label>
+                            <input type="radio" name="chAnimal" id="chGato" value="Gato" >
+                            <br><br>
+                        </div>
+                        
+                        <div id="form-precio">
+                            <label for="txtPrecio">Precio</label> <br>
+                            <input type="text" name="Precio" id="txtPrecio" placeholder="Precio">
+                            <small></small>
+                            <br><br>
+                        </div>
+    
+                        <div id="form-especificaciones">
+                            <img src="./img/animal.png" alt="raza">
+                            <input type="text" name="Raza" id="txtRaza" placeholder="Raza">
+                            <img src="./img/ciguena.png" alt="fecha de nacimiento">
+                            <input type="date" name="Fecha" id="dateFecha" placeholder="dd/mm/aaaa">
+                            <img src="./img/jeringuilla.png" alt="vacunas">
+                            <select name="Vacunas" id="sltVacunas" >
+                                <option value="-1"selected>---Elegir---</option>
+                                <option value="1">Si</option>
+                                <option value="0">No</option>
+                            </select>
+                            <br><br>
+    
+                        </div>
+                    </form>
+                </fieldset>
+                <small></small>
+                <br><br><br>
+            </div>
+            <div id="buttons-container">
+                <button  id="btnGuardar"><img src="./img/guardar-el-archivo.png" alt="">Guardar</button>
+            </div>
+    
+            <br><br>
+            <img src="./img/pawprint.gif" alt="rueda-spinner" id="spinner" class="rotate notVisible"/>
+            <div id="tabla-container">
+            </div>
+            <br><br>
+    
+        </main>
+        
+        <footer>
+            <div id="ancho">
+                <nav>
+                    <ul>
+                        <li ><a href="#nosotros">Nosotros</a></li>
+                        <li ><a href="#anuncios">Anuncios</a></li>
+                        <li ><a href="#blog">Blog</a></li>
+                        <li ><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+                <div id="footer-copyR">
+                    <p>Todos los derechos reservados 2019 &copy;</p>
+                </div>
+            </div>
+        </footer>
+    
+        <script src="./scripts/app.js" type="module"></script>
+    
+    </body>
+    </html>

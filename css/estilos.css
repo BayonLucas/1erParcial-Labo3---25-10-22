@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    border: 0;
+}
+
+header, footer{
+    background-color: orange;  
+    width: 100%;  
+    height: 80px;
+    margin: 0;
+    overflow: auto;
+    
+}
+.ancho{
+    width: 100%;
+    background-color: orange;  
+    height: 70px;
+}
+#nav-logo{
+    width: 10%;
+    float: left;
+}
+#nav-logo>a>img{
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0%;
+    border: 0ch;
+}
+#nav-container>ul{
+    display: block;
+    list-style: none;
+    float: right; 
+}
+
+#nav-container>ul>li>a{
+    color: black;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    border: none;   
+    padding-right: 20px;
+    
+    font-size: 13px;
+}
+
+
+#form-especificaciones{
+    align-items: center;
+}
+#form-especificaciones > img{
+    width: 20px;
+    padding: 2px 2px 2px 2px;
+    display: inline;
+}
+
+fieldset{
+    margin: 10px;
+}
+h1{
+    margin: 0%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    border: 1px solid white; 
+    border-left: 0ch;
+    border-right: 0ch;
+}
+
+
+
+footer nav{
+    width: 50%;
+    height: 30px;
+}
+footer nav ul li{   
+    display: inline;
+    float: left;
+    margin: 0%;
+}
+footer nav ul li a{   
+    color: white;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    padding: 16px;
+    border: none;   
+    padding-top: 40px;
+    font-size: 13px;
+    text-align: left;
+}
+#footer-copyR{
+    width: 95%;
+    color: white;
+    text-align: right;
+    padding: 5px;
+}
+
+
+@media screen and (max-width : 900px){
+
+}
+
+#anuncios{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+fieldset{
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+    
+}
+#form-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-content: center;
+}
+
+#buttons-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+#banner{
+    width: 100%;
+}
+#banner>img{
+    width: 100%;
+    height: 150px;
+}
+
+
+
+
+.inputError{
+    border: 1px solid red; 
+}
+small{
+    color: red;
+    font-size: small;
+}
+#buttons-container>button>img{
+    width: 10px;
+}
